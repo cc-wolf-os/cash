@@ -454,6 +454,10 @@ builtins = {
             return 1
         end
     end,
+    login = function(t)
+        -- TODO
+        return 0
+    end
 }
 builtins["["] = builtins.test
 
